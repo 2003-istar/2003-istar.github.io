@@ -71,6 +71,35 @@ var Denilson_Marker = L.marker([ -22.9027800,-43.2075000], {
 Denilson_Marker.bindPopup("Denilson says Hello from Rio De Janeiro");
 // Section 002 Markers
 
+var HawthorneAcademy_Marker = L.marker([35.228878, -80.814613], {
+    title: "Hawthorne Academy of Health Science"
+});
+HawthorneAcademy_Marker.bindPopup("Welcome to Hawthorne Academy!");
+
+var POB_Marker = L.marker([35.2387527, -80.8920165], {
+    title: "Phillip O. Berry"
+});
+
+POB_Marker.bindPopup("Phillip O. Berry");
+
+var NorthMeck_Marker = L.marker([ 35.3731949, -80.833961], { 
+	title: "North Mecklenburg High" 
+});
+
+NorthMeck_Marker.bindPopup("North Mecklenburg High");
+
+var Butler_Marker = L.marker([35.12028, -80.69306], {
+    title: "Butler High School"
+});
+
+Butler_Marker.bindPopup("Butler High School");
+
+var ArdreyKellHigh_Marker = L.marker([35.05, -80.81], {
+    title: "Ardrey Kell High School"
+});
+
+ArdreyKellHigh_Marker.bindPopup("Ardrey Kell High School");
+
 
 var myMap = L.map("map", {
 	center: [0, 0],
@@ -87,6 +116,13 @@ Abrum_Marker.addTo(myMap)
 Toby_Marker.addTo(myMap);
 Kiyah_Marker.addTo(myMap);
 Denilson_Marker.addTo(myMap);
+HawthorneAcademy_Marker.addTo(myMap);
+POB_Marker.addTo(myMap);
+NorthMeck_Marker.addTo(myMap);
+Butler_Marker.addTo(myMap);
+ArdreyKellHigh_Marker.addTo(myMap);
+
+
 
 
 
