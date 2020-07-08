@@ -40,6 +40,12 @@ var Camryn_Marker = L.marker([13.9094, -60.9789], {
 
 Camryn_Marker.bindPopup("Camryn says Hello from St. Lucia!");
 
+var Istar_Marker = L.marker([21.3891, 39.8579], {
+	title: "Istar wants to travel to Mecca"
+});
+
+Istar_Marker.bindPopup("Istar says Marhaba from Mecca!");
+
 // Section 002 Markers
 
 
@@ -53,3 +59,4 @@ Sam_Marker.addTo(myMap);
 Jonathan_Marker.addTo(myMap);
 Semira_Marker.addTo(myMap);
 Camryn_Marker.addTo(myMap);
+Istar_Marker.addTo(myMap);
